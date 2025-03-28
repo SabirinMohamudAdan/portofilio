@@ -25,7 +25,7 @@ const Footer = () => {
                 <FaFacebook />
               </a>
               {/* Email Icon */}
-              <a href="#" className="text-yellow-500 hover:text-orange-600 text-2xl">
+              <a href="#" className="text-yellow-500 hover:text-yellow-500 text-2xl">
                 <FaEnvelope />
               </a>
               {/* guthub Icon */}
