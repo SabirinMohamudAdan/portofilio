@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-4 ">
+        <div className="hidden md:flex space-x-4 text-xl ">
           <a href="#home" className="text-yellow-500   hover:underline ">Home</a>
           <a href="#about" className="text-white hover:text-yellow-500  hover:underline">About</a>
           <a href="#service" className="text-white hover:text-yellow-500 hover:underline">Service</a>
@@ -34,9 +34,9 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-gray-900 mt-4`}>
-        <a href="#about" className="block text-white hover:text-yellow-500 p-2">About</a>
-        <a href="#home" className="block text-white hover:text-yellow-500 p-2">Home</a>
+      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-gray-900 mt-4 text-xl  `}>
+        <a href="#about" className="block text-white hover:text-yellow-500 p-2  ">Home</a>
+        <a href="#home" className="block text-white hover:text-yellow-500 p-2">About</a>
         <a href="#service" className="block text-white hover:text-yellow-500 p-2">Service</a>
         <a href="#contact" className="block text-white hover:text-yellow-500 p-2">Contact</a>
       </div>
