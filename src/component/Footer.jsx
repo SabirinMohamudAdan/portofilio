@@ -48,7 +48,8 @@ const Footer = () => {
             <input type="email" placeholder="Your Email Address" className="w-full p-2 bg-gray-800 text-white rounded" />
             <input type="tel" placeholder="Your Phone Number" className="w-full p-2 bg-gray-800 text-white rounded" />
             <textarea placeholder="Your Idea" className="w-full p-2 bg-gray-800 text-white rounded" rows="4"></textarea>
-            <button type="submit" className="bg-yellow-500 text-white px-6 py-2 rounded hover:bg-yellow-500">Send Message</button>
+            <button type="submit" className="bg-yellow-500 text-white px-6 py-2 rounded
+             hover:bg-[#624d1d] transition duration-300">Send Message</button>
           </form>
         </div>
       </div>
