@@ -24,7 +24,7 @@ const Project = () => {
           </div>
           <div className="bg-gray-900 p-4 rounded-lg">
             <img src={img2} alt="project" className="rounded-lg" />
-            <p className='text-orange-500 mt-4  text-3xl'>E_ Suuq  </p>
+            <p className='text-yellow-500 mt-4  text-3xl'>E_ Suuq  </p>
             <h1 className=' text-white mt-2 text-xl'>The project is built with React js and Tailwindcss 
             </h1>
           </div>
