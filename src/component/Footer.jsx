@@ -35,7 +35,7 @@ const Footer = () => {
             <FaGithub/>
              </a>
               {/* LinkedIn Icon */}
-              <a href="#" className="text-orange-500 hover:text-orange-600 text-2xl">
+              <a href="#" className="text-yellow-500 hover:text-orange-600 text-2xl">
                 <FaLinkedin />
               </a>
             </div>
