@@ -49,10 +49,11 @@ const Header = () => {
               // onClick={() => setIsModalOpen(true)}
               className="flex items-center text-white hover:text-yellow-500"
             >
-              <div className="bg-yellow-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-orange-600">
+              <div className="bg-yellow-500 w-12 h-12 rounded-full
+               flex items-center justify-center hover:bg-[#624d1d] transition duration-300">
                 <i className="ri-play-fill">CV</i>
               </div>
-              <span className="ml-2">Upload My CV</span>
+              <span className="ml-2 text-white">Upload My CV</span>
             </button>
           </div>
         </div>
