@@ -10,7 +10,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center mt-8">
           <div className="md:w-1/2">
             <img src={img} alt="about" className="rounded-lg shadow-2xl hover:shadow-3xl transition-shadow duration-300
-     border-4 border-yellow-500 w-full max-w-96 h-96 animate-pulse
+     border-4 border-yellow-500 w-full max-w-96 h-96 animate-pulse mt-[-80px]
             "
             style={{
                 boxShadow: '0 0 20px rgba(255, 165, 0, 0.6), 0 0 40px rgba(255, 165, 0, 0.4)',
