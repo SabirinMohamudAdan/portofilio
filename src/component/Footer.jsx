@@ -21,21 +21,24 @@ const Footer = () => {
             <p className="text-gray-200">Somalia-Mogadishu</p>
             <div className="flex space-x-4 mt-4">
               {/* Facebook Icon */}
-              <a href="#" className="text-yellow-500 hover:text-yellow-500 text-2xl">
+              <a href="#" className="text-yellow-500 hover:text-[#624d1d] transition
+               duration-300  text-2xl">
                 <FaFacebook />
               </a>
               {/* Email Icon */}
-              <a href="#" className="text-yellow-500 hover:text-yellow-500 text-2xl">
+              <a href="#" className="text-yellow-500 hover:text-[#624d1d] transition
+               duration-300 text-2xl">
                 <FaEnvelope />
               </a>
               {/* guthub Icon */}
            
               <a href="https://github.com/SabirinMohamudAdan" className="
-                 text-yellow-500 hover:text-yellow-500 text-2xl">
+                 text-yellow-500 hover:text-[#624d1d] transition duration-300 text-2xl">
             <FaGithub/>
              </a>
               {/* LinkedIn Icon */}
-              <a href="#" className="text-yellow-500 hover:text-yellow-500 text-2xl">
+              <a href="#" className="text-yellow-500 hover:text-[#624d1d] transition
+               duration-300 text-2xl">
                 <FaLinkedin />
               </a>
             </div>
