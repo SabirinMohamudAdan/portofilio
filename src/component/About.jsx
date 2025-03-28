@@ -6,7 +6,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-white">About
            <span className="text-yellow-500">Me</span></h2>
-        <p className="text-gray-400 text-center mt-2">Creative Developer!</p>
+        <p className="text-gray-400 text-center mt-2"> Developer!</p>
         <div className="flex flex-col md:flex-row items-center mt-8">
           <div className="md:w-1/2">
             <img src={img} alt="about" className="rounded-lg shadow-2xl hover:shadow-3xl transition-shadow duration-300
