@@ -28,7 +28,7 @@ const About = () => {
              to understand their business needs, 
             </p>
             <button className="bg-yellow-500 text-white px-6 py-2 rounded mt-4 
-            hover:text-[#624d1d] transition duration-300">More About</button>
+            hover:bg-[#624d1d] transition duration-300">More About</button>
           </div>
         </div>
       </div>
