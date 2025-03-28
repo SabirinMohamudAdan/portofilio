@@ -21,7 +21,7 @@ const Footer = () => {
             <p className="text-gray-200">Somalia-Mogadishu</p>
             <div className="flex space-x-4 mt-4">
               {/* Facebook Icon */}
-              <a href="#" className="text-yellow-500 hover:text-orange-600 text-2xl">
+              <a href="#" className="text-yellow-500 hover:text-yellow-500 text-2xl">
                 <FaFacebook />
               </a>
               {/* Email Icon */}
