@@ -16,7 +16,7 @@ const Header = () => {
       });
     }, 1000); // Isbeddelka erayada 1 ilbiriqsi
 
-    return () => clearInterval(interval); // Clear interval on unmount
+    return () => clearInterval(interval); 
   }, [roles]);
 
   return (
@@ -62,7 +62,7 @@ const Header = () => {
         {/* Right Side: Image */}
         <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
           <img
-            src={img} // Ku dar sawirkaaga
+            src={img} 
             alt="Profile"
             className="rounded-lg shadow-2xl hover:shadow-3xl transition-shadow
              duration-300 border-4 border-yellow-500 w-full max-w-96 h-96 animate-pulse"
