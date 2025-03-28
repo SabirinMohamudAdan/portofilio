@@ -31,7 +31,7 @@ const Footer = () => {
               {/* guthub Icon */}
            
               <a href="https://github.com/SabirinMohamudAdan" className="
-                 text-yellow-500 hover:text-orange-600 text-2xl">
+                 text-yellow-500 hover:text-yellow-500 text-2xl">
             <FaGithub/>
              </a>
               {/* LinkedIn Icon */}
