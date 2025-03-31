@@ -72,7 +72,7 @@ const Project = () => {
               transition={{ duration: 0.3 }}
               src={img1} 
               alt="project" 
-              className="rounded-lg w-full h-48 object-cover" 
+              className="rounded-lg w-full h-[300px] object-cover" 
             />
             <p className='text-yellow-500 mt-4 text-3xl'>Ecomerce Rental House</p>
             <h1 className='text-white mt-2 text-xl'>The project is built with React js, Tailwindcss, Node js and MongoDB</h1>   
@@ -88,7 +88,7 @@ const Project = () => {
               transition={{ duration: 0.3 }}
               src={img} 
               alt="project" 
-              className="rounded-lg w-full h-48 object-cover" 
+              className="rounded-lg w-full h-[300px] object-cover" 
             />
             <p className='text-yellow-500 mt-4 text-3xl'>System Gov</p>
             <h1 className='text-white mt-2 text-xl'>This system utilizes Tailwind CSS, PHP, and MySQL</h1>
@@ -104,7 +104,7 @@ const Project = () => {
               transition={{ duration: 0.3 }}
               src={img2} 
               alt="project" 
-              className="rounded-lg w-full h-48 object-cover" 
+              className="rounded-lg w-full h-[300px] object-cover" 
             />
             <p className='text-yellow-500 mt-4 text-3xl'>Ecomerce E_Suuq</p>
             <h1 className='text-white mt-2 text-xl'>The project is built with React js and Tailwindcss</h1>
