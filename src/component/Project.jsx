@@ -13,19 +13,19 @@ const Project = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           <div className="bg-gray-900 p-4 rounded-lg">
             <img src={img1} alt="project" className="rounded-lg" />
-            <p className='text-yellow-500 mt-4  text-3xl'>Ecomerce   </p>
+            <p className='text-yellow-500 mt-4  text-3xl'>Ecomerce  Rental House  </p>
             <h1 className=' text-white mt-2 text-xl'>The project is built with React js ,Tailwindcss ,Node 
               js and MongoDB</h1>   
           </div>
           <div className="bg-gray-900 p-4 rounded-lg">
             <img src={img} alt="project" className="rounded-lg" />
-            <p className='text-yellow-500 mt-4  text-3xl'>System </p>
+            <p className='text-yellow-500 mt-4  text-3xl'>System Gov </p>
             <h1 className=' text-white mt-2 text-xl'>This system utilizes Tailwind CSS, PHP, and MySQL 
              </h1>
           </div>
           <div className="bg-gray-900 p-4 rounded-lg">
             <img src={img2} alt="project" className="rounded-lg" />
-            <p className='text-yellow-500 mt-4  text-3xl'>E_ Suuq  </p>
+            <p className='text-yellow-500 mt-4  text-3xl'> Ecomerce     E_ Suuq  </p>
             <h1 className=' text-white mt-2 text-xl'>The project is built with React js and Tailwindcss 
             </h1>
           </div>
