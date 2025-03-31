@@ -15,7 +15,7 @@ const Header = () => {
         const nextIndex = (currentIndex + 1) % roles.length;
         return roles[nextIndex];
       });
-    }, 1000); // Isbeddelka erayada 1 ilbiriqsi
+    }, 1000); 
 
     return () => clearInterval(interval); 
   }, [roles]);
