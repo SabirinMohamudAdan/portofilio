@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'; // Icons for menu and close
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to manage menu open/close
+  const [isOpen, setIsOpen] = useState(false); 
+ 
 
   const toggleMenu = () => {
     setIsOpen(!isOpen); // Toggle menu state
