@@ -1,7 +1,7 @@
  import React from 'react';
- import img from '../assets/i1.jpg';
- import img1 from '../assets/i2.jpg';
- import img2 from '../assets/i4.jpg';
+ import img from '../assets/img6.jpg';
+ import img1 from '../assets/img3.jpg';
+ import img2 from '../assets/img9.jpg';
 
 const Project = () => {
   return (
@@ -13,13 +13,13 @@ const Project = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           <div className="bg-gray-900 p-4 rounded-lg">
             <img src={img1} alt="project" className="rounded-lg" />
-            <p className='text-yellow-500 mt-4  text-3xl'>Rental House  </p>
+            <p className='text-yellow-500 mt-4  text-3xl'>Ecomerce   </p>
             <h1 className=' text-white mt-2 text-xl'>The project is built with React js ,Tailwindcss ,Node 
               js and MongoDB</h1>   
           </div>
           <div className="bg-gray-900 p-4 rounded-lg">
             <img src={img} alt="project" className="rounded-lg" />
-            <p className='text-yellow-500 mt-4  text-3xl'>Himilo Qaran  </p>
+            <p className='text-yellow-500 mt-4  text-3xl'>System </p>
             <h1 className=' text-white mt-2 text-xl'>This system utilizes Tailwind CSS, PHP, and MySQL 
              </h1>
           </div>
