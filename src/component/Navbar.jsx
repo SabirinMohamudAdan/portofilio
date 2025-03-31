@@ -6,7 +6,7 @@ const Navbar = () => {
  
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); // Toggle menu state
+    setIsOpen(!isOpen); 
   };
 
   return (
