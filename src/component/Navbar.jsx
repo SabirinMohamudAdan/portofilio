@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'; // Icons for menu and close
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); 
