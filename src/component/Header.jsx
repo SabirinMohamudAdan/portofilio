@@ -5,7 +5,8 @@ import img from '../assets/siman.jpg';
 const Header = () => {
   const roles = ["Web Developer", "Freelancer", "Designer"];
   const [currentRole, setCurrentRole] = useState(roles[0]);
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to manage modal visibility
+  const [isModalOpen, setIsModalOpen] = useState(false); 
+ 
 
   useEffect(() => {
     const interval = setInterval(() => {
